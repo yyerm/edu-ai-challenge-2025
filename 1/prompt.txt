@@ -1,0 +1,15 @@
+You are tasked with selecting the most suitable type of database for a new social platform application. The project requirements are:
+    The platform will have millions of users.
+    It needs to store user profiles, posts, and connections between users.
+    High data read speed is critical.
+    Expected workload is approximately 80% read operations and 20% write operations.
+    Scalability is important to accommodate user base growth.
+
+Please apply Chain-of-Thought reasoning by following these steps:
+    Identify and explain the key requirements of the project that influence database choice.
+    Discuss different types of databases (e.g., relational, document, graph, key-value, columnar) and how their characteristics align with the requirements.
+    Evaluate trade-offs such as read/write performance, data modeling suitability, and scalability.
+    Select the most appropriate database type based on this analysis.
+    Justify your selection with clear, logical reasoning that references the project needs.
+	
+Provide your reasoning in a detailed, step-by-step manner to demonstrate how you arrived at the final decision.
