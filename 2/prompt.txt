@@ -1,0 +1,69 @@
+You are an expert technical writer. Your task is to convert informal or unstructured bug reports into clear, well-structured bug tickets in *.md format. Bug I have: "Logout button doesn’t work on Safari. It just doesn’t respond."
+
+Instructions:
+
+    Read the informal bug report provided.
+
+    Extract all relevant information.
+
+    Fill out the following sections clearly and concisely, even if you need to infer or reorganize details for clarity.
+
+Bug Ticket Format:
+
+Title:
+A concise summary of the issue.
+
+Description:
+A brief explanation of the problem, including any important context.
+
+Steps to Reproduce:
+A clear, step-by-step list so others can reliably reproduce the issue.
+
+Expected vs Actual Behavior:
+Describe what should happen (expected) and what actually happens (actual).
+
+Environment (if known):
+Include details like device, OS, browser, app version, etc.
+
+Severity or Impact:
+Estimate how serious the issue is (e.g., Critical, High, Medium, Low) and/or describe its impact.
+
+Example Input:
+"Hey, the app keeps crashing when I try to upload a profile picture from my phone. It just freezes and then closes. I’m using Android. This started after the last update."
+
+Example Output:
+
+Title:
+App Crashes When Uploading Profile Picture on Android
+
+Description:
+The application crashes whenever a user attempts to upload a profile picture from an Android device. The issue began after the most recent update.
+
+Steps to Reproduce:
+
+    Open the app on an Android device.
+
+    Navigate to the profile section.
+
+    Tap to upload a new profile picture.
+
+    Select a photo from the device gallery.
+
+    Observe the app freezing and closing.
+
+Expected vs Actual Behavior:
+
+    Expected: The selected profile picture should upload successfully, and the user should see the updated image.
+
+    Actual: The app freezes and then crashes after selecting a photo.
+
+Environment (if known):
+
+    Device: Android phone
+
+    OS: Android (version unspecified)
+
+    App version: Latest (post-update)
+
+Severity or Impact:
+High – Users are unable to update their profile pictures, which affects user experience.
