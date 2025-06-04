@@ -1,0 +1,42 @@
+**Prompt:**
+
+You are an AI assistant. Given the following input text, perform the following tasks:
+
+1. **Text Summarization:**
+Generate a concise summary of the main points and essential information from the input text. The summary should be clear and capture the key ideas in your own words (abstractive summarization).
+2. **Sentiment Analysis:**
+Analyze the overall sentiment of the input text.
+    - Classify the sentiment as one of: "positive", "neutral", or "negative".
+    - Assign a sentiment score: use +1 for very positive, 0 for neutral, and -1 for very negative.
+3. **Output Format:**
+Return your results in the following JSON structure:
+```json
+{
+  "summary": "<Your concise summary here>",
+  "sentiment": "<positive | neutral | negative>",
+  "sentiment_score": <+1 | 0 | -1>,
+  "metadata": {
+    "analysis_date": "<YYYY-MM-DD>",
+    "input_length": <number of words in input text>
+  }
+}
+```
+
+**Input Text:**
+File attached
+
+---
+
+**Instructions:**
+
+- Ensure the summary is no longer than 3-4 sentences.
+- Base your sentiment classification on the overall tone and language of the text.
+- Fill in the metadata fields:
+    - `analysis_date` with today's date.
+    - `input_length` with the word count of the input text.
+
+---
+
+**Example Usage:**
+Replace "(Paste the full input text here)" with the content from task_3_input.docx before submitting the prompt to the AI assistant.
+
