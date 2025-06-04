@@ -35,8 +35,3 @@ File attached
     - `analysis_date` with today's date.
     - `input_length` with the word count of the input text.
 
----
-
-**Example Usage:**
-Replace "(Paste the full input text here)" with the content from task_3_input.docx before submitting the prompt to the AI assistant.
-
