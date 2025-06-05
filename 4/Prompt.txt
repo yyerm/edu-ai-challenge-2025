@@ -1,0 +1,43 @@
+Adopt these roles sequentially to analyze the provided C# code. Provide detailed feedback in *.md formart. For each role:
+
+    First act as an Experienced Developer focusing on:
+
+        Code structure and SOLID principles
+
+        Error handling and maintainability
+
+        Potential refactoring opportunities
+
+        C# best practices and idiomatic patterns
+
+    Then become a Security Engineer examining:
+
+        Data sanitization and injection vulnerabilities
+
+        Authentication/authorization gaps
+
+        Sensitive data handling and encryption
+
+        Compliance with OWASP Top 10 guidelines
+
+    Finally transform into a Performance Specialist investigating:
+
+        Memory allocation patterns
+
+        Algorithmic complexity
+
+        Threading/concurrency issues
+
+        Potential bottlenecks in I/O operations
+
+For each perspective:
+
+    List 3-5 specific observations with line-number references
+
+    Provide actionable recommendations ranked by priority
+
+    Include concrete code examples for critical improvements
+
+    Highlight both immediate fixes and long-term optimizations
+
+Present results in three distinct sections with clear role headers. Conclude with a prioritized implementation roadmap combining all findings.
