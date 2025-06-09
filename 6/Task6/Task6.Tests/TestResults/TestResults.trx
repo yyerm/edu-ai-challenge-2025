@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c41b6319-7c6e-4a11-8288-8b4e4269f927" name="user_tp@YURKO 2025-06-10 00:05:59" runUser="YURKO\user_tp" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-06-10T00:05:59.4083002+03:00" queuing="2025-06-10T00:05:59.4083004+03:00" start="2025-06-10T00:05:55.9416090+03:00" finish="2025-06-10T00:05:59.4126982+03:00" />
+  <TestSettings name="default" id="1fa57f1d-b442-4755-bd3d-01ddb1751f3b">
+    <Deployment runDeploymentRoot="user_tp_YURKO_2025-06-10_00_05_59" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="accea7e2-3f7f-443a-a6dc-285a2a393c8e" testId="f1f18fc6-1d6c-8d0a-49ee-1e404974f176" testName="Enigma_EncryptChar_NonAlpha_Returns_Same" computerName="YURKO" duration="00:00:00.0032960" startTime="2025-06-10T00:05:58.9370114+03:00" endTime="2025-06-10T00:05:58.9403072+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="accea7e2-3f7f-443a-a6dc-285a2a393c8e" />
+    <UnitTestResult executionId="e5508558-ce20-40ff-a1dd-90a185073c15" testId="c86c652a-4812-43f2-e274-50019fb9d305" testName="Enigma_EncryptChar_Encrypts_And_Reflects" computerName="YURKO" duration="00:00:00.0058620" startTime="2025-06-10T00:05:58.9304221+03:00" endTime="2025-06-10T00:05:58.9362495+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5508558-ce20-40ff-a1dd-90a185073c15" />
+    <UnitTestResult executionId="b1768f59-d9a6-432f-831e-7d5463201630" testId="8038584d-9abd-396d-c796-84b02fbe2934" testName="Rotor_Forward_And_Backward_Are_Inverses" computerName="YURKO" duration="00:00:00.0002690" startTime="2025-06-10T00:05:59.0504425+03:00" endTime="2025-06-10T00:05:59.0507113+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1768f59-d9a6-432f-831e-7d5463201630" />
+    <UnitTestResult executionId="e44bcdbb-2bb4-4338-b991-27d6592b399d" testId="e9155b87-1489-3e42-04e4-a6b023a25906" testName="Rotor_Step_Wraps_Around" computerName="YURKO" duration="00:00:00.0000830" startTime="2025-06-10T00:05:59.0507189+03:00" endTime="2025-06-10T00:05:59.0508020+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e44bcdbb-2bb4-4338-b991-27d6592b399d" />
+    <UnitTestResult executionId="9e81af89-1e56-4720-8948-82901f610151" testId="a994daf7-7bb7-dbba-4d50-de78f3165f90" testName="PlugboardSwap_Swaps_And_Passes_Through" computerName="YURKO" duration="00:00:00.0002370" startTime="2025-06-10T00:05:59.0501076+03:00" endTime="2025-06-10T00:05:59.0503441+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e81af89-1e56-4720-8948-82901f610151" />
+    <UnitTestResult executionId="f094475d-7fbd-42b2-9967-fadb669507e1" testId="6483dd7e-8e4a-e6c0-f140-c063c4cb1def" testName="Enigma_Stepping_DoubleStep_Behavior" computerName="YURKO" duration="00:00:00.1075120" startTime="2025-06-10T00:05:58.9425697+03:00" endTime="2025-06-10T00:05:59.0500812+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f094475d-7fbd-42b2-9967-fadb669507e1" />
+    <UnitTestResult executionId="8e511645-ef56-4510-a659-451c9efbb183" testId="6458dfc7-981b-ba22-1230-68ed223d7d68" testName="Enigma_Process_Encrypts_String" computerName="YURKO" duration="00:00:00.0015080" startTime="2025-06-10T00:05:58.9403219+03:00" endTime="2025-06-10T00:05:58.9418299+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e511645-ef56-4510-a659-451c9efbb183" />
+    <UnitTestResult executionId="8013efbd-4a81-498e-bbec-8ff3b398f1d3" testId="27755cad-0b04-12a9-bd05-16577f54300f" testName="Enigma_Process_Is_Reversible_With_Same_Settings" computerName="YURKO" duration="00:00:00.0007180" startTime="2025-06-10T00:05:58.9418432+03:00" endTime="2025-06-10T00:05:58.9425607+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8013efbd-4a81-498e-bbec-8ff3b398f1d3" />
+    <UnitTestResult executionId="6dd0acd0-24de-40b1-9b08-b2bd72b2829e" testId="b3afedf9-d8a1-808b-dea8-f27a92f0cbdc" testName="Rotor_AtNotch_Returns_True_At_Notch" computerName="YURKO" duration="00:00:00.0000820" startTime="2025-06-10T00:05:59.0503551+03:00" endTime="2025-06-10T00:05:59.0504369+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6dd0acd0-24de-40b1-9b08-b2bd72b2829e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Rotor_AtNotch_Returns_True_At_Notch" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\6\task6\task6.tests\bin\debug\net8.0\task6.tests.dll" id="b3afedf9-d8a1-808b-dea8-f27a92f0cbdc">
+      <Execution id="6dd0acd0-24de-40b1-9b08-b2bd72b2829e" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6.Tests\bin\Debug\net8.0\Task6.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task6.Tests.ProgramTests" name="Rotor_AtNotch_Returns_True_At_Notch" />
+    </UnitTest>
+    <UnitTest name="PlugboardSwap_Swaps_And_Passes_Through" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\6\task6\task6.tests\bin\debug\net8.0\task6.tests.dll" id="a994daf7-7bb7-dbba-4d50-de78f3165f90">
+      <Execution id="9e81af89-1e56-4720-8948-82901f610151" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6.Tests\bin\Debug\net8.0\Task6.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task6.Tests.ProgramTests" name="PlugboardSwap_Swaps_And_Passes_Through" />
+    </UnitTest>
+    <UnitTest name="Enigma_EncryptChar_Encrypts_And_Reflects" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\6\task6\task6.tests\bin\debug\net8.0\task6.tests.dll" id="c86c652a-4812-43f2-e274-50019fb9d305">
+      <Execution id="e5508558-ce20-40ff-a1dd-90a185073c15" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6.Tests\bin\Debug\net8.0\Task6.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task6.Tests.ProgramTests" name="Enigma_EncryptChar_Encrypts_And_Reflects" />
+    </UnitTest>
+    <UnitTest name="Rotor_Step_Wraps_Around" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\6\task6\task6.tests\bin\debug\net8.0\task6.tests.dll" id="e9155b87-1489-3e42-04e4-a6b023a25906">
+      <Execution id="e44bcdbb-2bb4-4338-b991-27d6592b399d" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6.Tests\bin\Debug\net8.0\Task6.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task6.Tests.ProgramTests" name="Rotor_Step_Wraps_Around" />
+    </UnitTest>
+    <UnitTest name="Rotor_Forward_And_Backward_Are_Inverses" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\6\task6\task6.tests\bin\debug\net8.0\task6.tests.dll" id="8038584d-9abd-396d-c796-84b02fbe2934">
+      <Execution id="b1768f59-d9a6-432f-831e-7d5463201630" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6.Tests\bin\Debug\net8.0\Task6.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task6.Tests.ProgramTests" name="Rotor_Forward_And_Backward_Are_Inverses" />
+    </UnitTest>
+    <UnitTest name="Enigma_Process_Is_Reversible_With_Same_Settings" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\6\task6\task6.tests\bin\debug\net8.0\task6.tests.dll" id="27755cad-0b04-12a9-bd05-16577f54300f">
+      <Execution id="8013efbd-4a81-498e-bbec-8ff3b398f1d3" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6.Tests\bin\Debug\net8.0\Task6.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task6.Tests.ProgramTests" name="Enigma_Process_Is_Reversible_With_Same_Settings" />
+    </UnitTest>
+    <UnitTest name="Enigma_Stepping_DoubleStep_Behavior" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\6\task6\task6.tests\bin\debug\net8.0\task6.tests.dll" id="6483dd7e-8e4a-e6c0-f140-c063c4cb1def">
+      <Execution id="f094475d-7fbd-42b2-9967-fadb669507e1" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6.Tests\bin\Debug\net8.0\Task6.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task6.Tests.ProgramTests" name="Enigma_Stepping_DoubleStep_Behavior" />
+    </UnitTest>
+    <UnitTest name="Enigma_EncryptChar_NonAlpha_Returns_Same" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\6\task6\task6.tests\bin\debug\net8.0\task6.tests.dll" id="f1f18fc6-1d6c-8d0a-49ee-1e404974f176">
+      <Execution id="accea7e2-3f7f-443a-a6dc-285a2a393c8e" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6.Tests\bin\Debug\net8.0\Task6.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task6.Tests.ProgramTests" name="Enigma_EncryptChar_NonAlpha_Returns_Same" />
+    </UnitTest>
+    <UnitTest name="Enigma_Process_Encrypts_String" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\6\task6\task6.tests\bin\debug\net8.0\task6.tests.dll" id="6458dfc7-981b-ba22-1230-68ed223d7d68">
+      <Execution id="8e511645-ef56-4510-a659-451c9efbb183" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6.Tests\bin\Debug\net8.0\Task6.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task6.Tests.ProgramTests" name="Enigma_Process_Encrypts_String" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f1f18fc6-1d6c-8d0a-49ee-1e404974f176" executionId="accea7e2-3f7f-443a-a6dc-285a2a393c8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c86c652a-4812-43f2-e274-50019fb9d305" executionId="e5508558-ce20-40ff-a1dd-90a185073c15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8038584d-9abd-396d-c796-84b02fbe2934" executionId="b1768f59-d9a6-432f-831e-7d5463201630" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9155b87-1489-3e42-04e4-a6b023a25906" executionId="e44bcdbb-2bb4-4338-b991-27d6592b399d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a994daf7-7bb7-dbba-4d50-de78f3165f90" executionId="9e81af89-1e56-4720-8948-82901f610151" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6483dd7e-8e4a-e6c0-f140-c063c4cb1def" executionId="f094475d-7fbd-42b2-9967-fadb669507e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6458dfc7-981b-ba22-1230-68ed223d7d68" executionId="8e511645-ef56-4510-a659-451c9efbb183" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27755cad-0b04-12a9-bd05-16577f54300f" executionId="8013efbd-4a81-498e-bbec-8ff3b398f1d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3afedf9-d8a1-808b-dea8-f27a92f0cbdc" executionId="6dd0acd0-24de-40b1-9b08-b2bd72b2829e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 5.0.0.0: Test execution started&#xD;
+Running all tests in D:\_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6.Tests\bin\Debug\net8.0\Task6.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 9 of 9 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 5.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="YURKO" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="YURKO\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

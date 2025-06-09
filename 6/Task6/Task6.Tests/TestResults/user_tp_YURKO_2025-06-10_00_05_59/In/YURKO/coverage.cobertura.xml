@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="0.9375" version="1.9" timestamp="1749503159" lines-covered="64" lines-valid="64" branches-covered="15" branches-valid="16">
+  <sources>
+    <source>D:\</source>
+  </sources>
+  <packages>
+    <package name="Task6" line-rate="1" branch-rate="0.9375" complexity="29">
+      <classes>
+        <class name="Task6.Program" filename="_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6\Program.converted.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="Mod" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="187" branch="False" />
+              </lines>
+            </method>
+            <method name="PlugboardSwap" signature="(System.Char,System.Collections.Generic.List`1&lt;System.Tuple`2&lt;System.Char,System.Char&gt;&gt;)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="22" hits="43" branch="False" />
+                <line number="23" hits="187" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="74" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="24" hits="32" branch="False" />
+                <line number="25" hits="35" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="31" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="32" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="55" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="26" branch="False" />
+                <line number="28" hits="37" branch="False" />
+                <line number="29" hits="43" branch="False" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="187" branch="False" />
+            <line number="22" hits="43" branch="False" />
+            <line number="23" hits="187" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="74" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="24" hits="32" branch="False" />
+            <line number="25" hits="35" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="31" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="26" hits="32" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="55" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="27" hits="26" branch="False" />
+            <line number="28" hits="37" branch="False" />
+            <line number="29" hits="43" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Task6.Program/Rotor" filename="_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6\Program.converted.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="get_Wiring" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="184" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Notch" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="57" branch="False" />
+              </lines>
+            </method>
+            <method name="get_RingSetting" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="166" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Position" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="272" branch="False" />
+              </lines>
+            </method>
+            <method name="Step" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="21" branch="False" />
+              </lines>
+            </method>
+            <method name="AtNotch" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="39" branch="False" />
+              </lines>
+            </method>
+            <method name="Forward" signature="(System.Char)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="83" branch="False" />
+                <line number="50" hits="83" branch="False" />
+                <line number="51" hits="83" branch="False" />
+                <line number="52" hits="83" branch="False" />
+              </lines>
+            </method>
+            <method name="Backward" signature="(System.Char)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="54" hits="83" branch="False" />
+                <line number="55" hits="83" branch="False" />
+                <line number="56" hits="83" branch="False" />
+                <line number="57" hits="83" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Char,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="24" branch="False" />
+                <line number="39" hits="24" branch="False" />
+                <line number="40" hits="24" branch="False" />
+                <line number="41" hits="24" branch="False" />
+                <line number="42" hits="24" branch="False" />
+                <line number="43" hits="24" branch="False" />
+                <line number="44" hits="24" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="33" hits="184" branch="False" />
+            <line number="34" hits="57" branch="False" />
+            <line number="35" hits="166" branch="False" />
+            <line number="36" hits="272" branch="False" />
+            <line number="46" hits="21" branch="False" />
+            <line number="47" hits="39" branch="False" />
+            <line number="49" hits="83" branch="False" />
+            <line number="50" hits="83" branch="False" />
+            <line number="51" hits="83" branch="False" />
+            <line number="52" hits="83" branch="False" />
+            <line number="54" hits="83" branch="False" />
+            <line number="55" hits="83" branch="False" />
+            <line number="56" hits="83" branch="False" />
+            <line number="57" hits="83" branch="False" />
+            <line number="38" hits="24" branch="False" />
+            <line number="39" hits="24" branch="False" />
+            <line number="40" hits="24" branch="False" />
+            <line number="41" hits="24" branch="False" />
+            <line number="42" hits="24" branch="False" />
+            <line number="43" hits="24" branch="False" />
+            <line number="44" hits="24" branch="False" />
+          </lines>
+        </class>
+        <class name="Task6.Program/Enigma" filename="_git\AI_Challenge\edu-ai-challenge-2025\6\Task6\Task6\Program.converted.cs" line-rate="1" branch-rate="0.9" complexity="12">
+          <methods>
+            <method name="StepRotors" signature="()" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="72" hits="19" branch="False" />
+                <line number="73" hits="19" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="16" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="74" hits="20" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="47" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="75" hits="19" branch="False" />
+                <line number="76" hits="19" branch="False" />
+              </lines>
+            </method>
+            <method name="EncryptChar" signature="(System.Char)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="99" hits="21" branch="False" />
+                <line number="100" hits="23" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="17" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="101" hits="19" branch="False" />
+                <line number="104" hits="19" branch="False" />
+                <line number="107" hits="152" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="91" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="108" hits="57" branch="False" />
+                <line number="109" hits="57" branch="False" />
+                <line number="110" hits="57" branch="False" />
+                <line number="113" hits="19" branch="False" />
+                <line number="116" hits="152" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="162" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="117" hits="57" branch="False" />
+                <line number="118" hits="57" branch="False" />
+                <line number="119" hits="57" branch="False" />
+                <line number="122" hits="19" branch="False" />
+                <line number="124" hits="19" branch="False" />
+                <line number="125" hits="21" branch="False" />
+              </lines>
+            </method>
+            <method name="Process" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="128" hits="3" branch="False" />
+                <line number="129" hits="20" branch="False" />
+                <line number="130" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32[],System.Int32[],System.Int32[],System.Collections.Generic.List`1&lt;System.Tuple`2&lt;System.Char,System.Char&gt;&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="65" hits="6" branch="False" />
+                <line number="66" hits="6" branch="False" />
+                <line number="67" hits="24" branch="False" />
+                <line number="68" hits="6" branch="False" />
+                <line number="69" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="72" hits="19" branch="False" />
+            <line number="73" hits="19" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="16" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="74" hits="20" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="47" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="75" hits="19" branch="False" />
+            <line number="76" hits="19" branch="False" />
+            <line number="99" hits="21" branch="False" />
+            <line number="100" hits="23" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="17" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="101" hits="19" branch="False" />
+            <line number="104" hits="19" branch="False" />
+            <line number="107" hits="152" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="91" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="108" hits="57" branch="False" />
+            <line number="109" hits="57" branch="False" />
+            <line number="110" hits="57" branch="False" />
+            <line number="113" hits="19" branch="False" />
+            <line number="116" hits="152" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="162" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="117" hits="57" branch="False" />
+            <line number="118" hits="57" branch="False" />
+            <line number="119" hits="57" branch="False" />
+            <line number="122" hits="19" branch="False" />
+            <line number="124" hits="19" branch="False" />
+            <line number="125" hits="21" branch="False" />
+            <line number="128" hits="3" branch="False" />
+            <line number="129" hits="20" branch="False" />
+            <line number="130" hits="3" branch="False" />
+            <line number="65" hits="6" branch="False" />
+            <line number="66" hits="6" branch="False" />
+            <line number="67" hits="24" branch="False" />
+            <line number="68" hits="6" branch="False" />
+            <line number="69" hits="6" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
