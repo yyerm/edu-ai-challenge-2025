@@ -1,7 +1,7 @@
-##Enigma Encryption Issue Analysis
+## Enigma Encryption Issue Analysis
 The issue with your Enigma implementation is that it's not fully implementing the historical Enigma machine's encryption path. In a real Enigma machine, the electrical signal goes through the plugboard twice - once when entering and once when exiting.
 
-###The Problem
+### The Problem
 In your EncryptChar method, the plugboard swap is only applied at the beginning of the encryption process but not at the end:
 
 ```csharp
@@ -15,7 +15,7 @@ public char EncryptChar(char c)
 }
 ```
 
-###The Fix
+### The Fix
 Here's the corrected version that applies the plugboard swap both at the beginning and end of the encryption process:
 
 ```csharp
