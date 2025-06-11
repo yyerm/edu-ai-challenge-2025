@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="93a77021-2fef-46e8-a506-03017e05af8e" name="user_tp@YURKO 2025-06-11 23:22:53" runUser="YURKO\user_tp" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-06-11T23:22:53.7892062+03:00" queuing="2025-06-11T23:22:53.7892064+03:00" start="2025-06-11T23:22:52.3468316+03:00" finish="2025-06-11T23:22:53.9931850+03:00" />
+  <TestSettings name="default" id="84e7853e-fe73-4d0e-b2a2-cf438c88b9a6">
+    <Deployment runDeploymentRoot="user_tp_YURKO_2025-06-11_23_22_53" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e9ca6742-7a69-47f4-b0bf-355e9d914924" testId="6ac98b77-8ce0-41dd-ca2d-74dbfd925755" testName="Board_PlaceShipsRandomly_DoesNotOverlapShips" computerName="YURKO" duration="00:00:00.0003120" startTime="2025-06-11T23:22:53.7446122+03:00" endTime="2025-06-11T23:22:53.7449238+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9ca6742-7a69-47f4-b0bf-355e9d914924" />
+    <UnitTestResult executionId="b72f5fc5-1170-4dd4-a49a-8f84abe33385" testId="ef262e4d-3671-74a2-5459-110e5ce5b974" testName="BattleshipGame_CpuShipsRemaining_DecrementsOnSunk" computerName="YURKO" duration="00:00:00.0069120" startTime="2025-06-11T23:22:53.2093516+03:00" endTime="2025-06-11T23:22:53.2162316+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b72f5fc5-1170-4dd4-a49a-8f84abe33385" />
+    <UnitTestResult executionId="2d19b260-56be-41ea-ada0-2b305b01e920" testId="c2d878b6-17a2-76b2-187f-b004405e035c" testName="BattleshipGame_InvalidGuess_OutOfBounds" computerName="YURKO" duration="00:00:00.0006320" startTime="2025-06-11T23:22:53.7231016+03:00" endTime="2025-06-11T23:22:53.7237333+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d19b260-56be-41ea-ada0-2b305b01e920" />
+    <UnitTestResult executionId="b82b9770-ecab-4d7b-957c-63fd0998f3b9" testId="2b9cbe03-4bd1-6184-c430-c58be57413c5" testName="CpuOpponent_OnShipSunk_ResetsTargetMode" computerName="YURKO" duration="00:00:00.0002520" startTime="2025-06-11T23:22:53.7493775+03:00" endTime="2025-06-11T23:22:53.7496298+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b82b9770-ecab-4d7b-957c-63fd0998f3b9" />
+    <UnitTestResult executionId="8e5d048d-ab44-45d9-84d3-cc2c15d68715" testId="739dbb54-0ed9-1d1c-cd99-c0a7f5c37950" testName="Board_PlaceShipsRandomly_PlacesCorrectNumberOfShips" computerName="YURKO" duration="00:00:00.0011500" startTime="2025-06-11T23:22:53.7449333+03:00" endTime="2025-06-11T23:22:53.7460834+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e5d048d-ab44-45d9-84d3-cc2c15d68715" />
+    <UnitTestResult executionId="ec43209e-be1a-4108-bb57-78520f8d7cc2" testId="b188b6f5-cbf7-04f6-7a1e-63c050677e35" testName="BattleshipGame_PlayerGuesses_AreTracked" computerName="YURKO" duration="00:00:00.0001960" startTime="2025-06-11T23:22:53.7240493+03:00" endTime="2025-06-11T23:22:53.7242452+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec43209e-be1a-4108-bb57-78520f8d7cc2" />
+    <UnitTestResult executionId="95c0fec9-d2c7-4a15-afd1-7e8b6da57057" testId="3b7aa783-17ca-ee9a-2ea0-4f4da95b105f" testName="Ship_Locations_AreImmutable" computerName="YURKO" duration="00:00:00.0004500" startTime="2025-06-11T23:22:53.7509174+03:00" endTime="2025-06-11T23:22:53.7513674+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95c0fec9-d2c7-4a15-afd1-7e8b6da57057" />
+    <UnitTestResult executionId="4ce28390-7175-42c6-9937-2a289ce2f44f" testId="5f22c046-3953-6eee-c5e9-638ec77d14b6" testName="Ship_IsSunk_ReturnsFalseWhenAnyHitIsFalse" computerName="YURKO" duration="00:00:00.0001110" startTime="2025-06-11T23:22:53.7506943+03:00" endTime="2025-06-11T23:22:53.7508050+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ce28390-7175-42c6-9937-2a289ce2f44f" />
+    <UnitTestResult executionId="9418d010-2674-4832-8883-e97969e8aadf" testId="ba56f877-a115-1ab7-9141-73fb9ff084a9" testName="BattleshipGame_PrintBoards_PrintsWithoutError" computerName="YURKO" duration="00:00:00.0106710" startTime="2025-06-11T23:22:53.7257335+03:00" endTime="2025-06-11T23:22:53.7364038+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9418d010-2674-4832-8883-e97969e8aadf" />
+    <UnitTestResult executionId="4c52d12d-3445-49ac-9202-d7e342b76e81" testId="90409ddc-0936-2ea4-b60e-d7ece8435d5b" testName="BattleshipGame_PlayerTurnAsync_HandlesInvalidInput" computerName="YURKO" duration="00:00:00.0012010" startTime="2025-06-11T23:22:53.7245098+03:00" endTime="2025-06-11T23:22:53.7257109+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c52d12d-3445-49ac-9202-d7e342b76e81">
+      <Output>
+        <StdOut>Enter your guess (e.g., 00): Input must be two digits between 0 and 9.&#xD;
+Enter your guess (e.g., 00): PLAYER HIT!&#xD;
+You sunk an enemy battleship!</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="160adbcf-5d61-42b0-bff7-037d38b451f2" testId="d5abce5c-957d-c577-26ed-36c3d6a664be" testName="Board_InitializesWithEmptyCells" computerName="YURKO" duration="00:00:00.0001250" startTime="2025-06-11T23:22:53.7443679+03:00" endTime="2025-06-11T23:22:53.7444927+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="160adbcf-5d61-42b0-bff7-037d38b451f2" />
+    <UnitTestResult executionId="0dc819bb-fde6-4456-bf06-92710c4bc9fb" testId="f1c5fa6b-8772-9cc9-a884-f4386e7814cf" testName="BattleshipGame_CpuTurnAsync_ExecutesWithoutError" computerName="YURKO" duration="00:00:00.5061170" startTime="2025-06-11T23:22:53.2169226+03:00" endTime="2025-06-11T23:22:53.7230388+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dc819bb-fde6-4456-bf06-92710c4bc9fb">
+      <Output>
+        <StdOut>--- CPU's Turn ---&#xD;
+CPU MISS at 33.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="88a57f9f-566c-4cf5-be71-b15f3bd7c3a3" testId="50da9d4f-fb7e-5d46-a551-95b976e8d27f" testName="Board_MarkHitAndMiss_UpdatesCells" computerName="YURKO" duration="00:00:00.0001020" startTime="2025-06-11T23:22:53.7445033+03:00" endTime="2025-06-11T23:22:53.7446055+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88a57f9f-566c-4cf5-be71-b15f3bd7c3a3" />
+    <UnitTestResult executionId="7094d525-4b08-4f83-8842-990bf36ffc4b" testId="79fafe10-bd21-0aed-b40c-0c31c2840179" testName="CpuOpponent_GetNextGuess_ReturnsValidCoordinates" computerName="YURKO" duration="00:00:00.0005710" startTime="2025-06-11T23:22:53.7473013+03:00" endTime="2025-06-11T23:22:53.7478720+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7094d525-4b08-4f83-8842-990bf36ffc4b" />
+    <UnitTestResult executionId="919eda7a-4faf-42c2-95b8-9a7369326387" testId="ff089296-0dd9-0bf7-8928-4fdea7aed802" testName="BattleshipGame_ValidGuess_ParsesCorrectly" computerName="YURKO" duration="00:00:00.0002460" startTime="2025-06-11T23:22:53.7388318+03:00" endTime="2025-06-11T23:22:53.7390773+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="919eda7a-4faf-42c2-95b8-9a7369326387" />
+    <UnitTestResult executionId="f0ef490d-4343-4aa8-b5a7-75a71e7e85bb" testId="f0afe71e-d747-6dc2-813c-626206feefcf" testName="CpuOpponent_OnHit_AddsAdjacentCellsToTargetQueue" computerName="YURKO" duration="00:00:00.0009630" startTime="2025-06-11T23:22:53.7478817+03:00" endTime="2025-06-11T23:22:53.7488445+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0ef490d-4343-4aa8-b5a7-75a71e7e85bb" />
+    <UnitTestResult executionId="67461310-baf1-40a2-8b0a-0cc019f7c2da" testId="429780c2-8c7d-4661-c562-fc728d0a10e8" testName="Board_GetDisplayCell_HidesShipsWhenRequested" computerName="YURKO" duration="00:00:00.0005470" startTime="2025-06-11T23:22:53.7406596+03:00" endTime="2025-06-11T23:22:53.7412065+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67461310-baf1-40a2-8b0a-0cc019f7c2da" />
+    <UnitTestResult executionId="372396c4-2280-4e1e-97e1-99c2c99cdc77" testId="49b967b0-b539-af1c-1a25-46704c6405a7" testName="Ship_InitializesWithLocationsAndHits" computerName="YURKO" duration="00:00:00.0009770" startTime="2025-06-11T23:22:53.7497073+03:00" endTime="2025-06-11T23:22:53.7506842+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="372396c4-2280-4e1e-97e1-99c2c99cdc77" />
+    <UnitTestResult executionId="74198ca1-141f-4e25-8504-23ad98ab2ff3" testId="5163dce5-4495-d29b-a1cf-8c321abd93e2" testName="CpuOpponent_OnMiss_ResetsToHuntIfNoTargets" computerName="YURKO" duration="00:00:00.0005140" startTime="2025-06-11T23:22:53.7488544+03:00" endTime="2025-06-11T23:22:53.7493686+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74198ca1-141f-4e25-8504-23ad98ab2ff3" />
+    <UnitTestResult executionId="83fd0861-0efc-471a-8e57-e8ff3b6c4c29" testId="197fc58a-7715-d77e-1310-e13542e155d8" testName="BattleshipGame_PlayerShipsRemaining_DecrementsOnSunk" computerName="YURKO" duration="00:00:00.0002390" startTime="2025-06-11T23:22:53.7242623+03:00" endTime="2025-06-11T23:22:53.7245016+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83fd0861-0efc-471a-8e57-e8ff3b6c4c29" />
+    <UnitTestResult executionId="56938df1-fbc7-4426-9fa1-27dd16fe3ba0" testId="247d0eeb-7bca-e405-d9f2-1437281e0c71" testName="Board_HideShipsFlag_Works" computerName="YURKO" duration="00:00:00.0031390" startTime="2025-06-11T23:22:53.7412182+03:00" endTime="2025-06-11T23:22:53.7443569+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56938df1-fbc7-4426-9fa1-27dd16fe3ba0" />
+    <UnitTestResult executionId="0c1f1fc3-3698-47da-a020-1898ff45d007" testId="8d8edc51-7e4e-dead-eb6b-b4356f6371c7" testName="Ship_IsSunk_ReturnsTrueWhenAllHitsAreTrue" computerName="YURKO" duration="00:00:00.0000920" startTime="2025-06-11T23:22:53.7508169+03:00" endTime="2025-06-11T23:22:53.7509084+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c1f1fc3-3698-47da-a020-1898ff45d007" />
+    <UnitTestResult executionId="3241d6e2-1dcc-4ff4-846b-8883fc894a1d" testId="984fef88-6dc0-7277-f23b-83197c0b1611" testName="BattleshipGame_RunAsync_CompletesGame" computerName="YURKO" duration="00:00:00.0023750" startTime="2025-06-11T23:22:53.7364347+03:00" endTime="2025-06-11T23:22:53.7388092+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3241d6e2-1dcc-4ff4-846b-8883fc894a1d" />
+    <UnitTestResult executionId="45898021-d80f-41b8-81d6-7833280e22ee" testId="b8ccdca2-28be-755d-daac-1b3b5dd504f0" testName="BattleshipGame_InvalidGuess_ReturnsFalse" computerName="YURKO" duration="00:00:00.0002960" startTime="2025-06-11T23:22:53.7237440+03:00" endTime="2025-06-11T23:22:53.7240398+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45898021-d80f-41b8-81d6-7833280e22ee" />
+    <UnitTestResult executionId="c1270ec1-7386-445b-a0e9-bcc4231cecae" testId="1736a87b-f04c-92db-9921-431caa683acd" testName="CpuOpponent_DoesNotRepeatGuesses" computerName="YURKO" duration="00:00:00.0010640" startTime="2025-06-11T23:22:53.7462190+03:00" endTime="2025-06-11T23:22:53.7472828+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1270ec1-7386-445b-a0e9-bcc4231cecae" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CpuOpponent_GetNextGuess_ReturnsValidCoordinates" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="79fafe10-bd21-0aed-b40c-0c31c2840179">
+      <Execution id="7094d525-4b08-4f83-8842-990bf36ffc4b" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.CpuOpponentTests" name="CpuOpponent_GetNextGuess_ReturnsValidCoordinates" />
+    </UnitTest>
+    <UnitTest name="BattleshipGame_PlayerShipsRemaining_DecrementsOnSunk" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="197fc58a-7715-d77e-1310-e13542e155d8">
+      <Execution id="83fd0861-0efc-471a-8e57-e8ff3b6c4c29" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BattleshipGameTests" name="BattleshipGame_PlayerShipsRemaining_DecrementsOnSunk" />
+    </UnitTest>
+    <UnitTest name="CpuOpponent_DoesNotRepeatGuesses" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="1736a87b-f04c-92db-9921-431caa683acd">
+      <Execution id="c1270ec1-7386-445b-a0e9-bcc4231cecae" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.CpuOpponentTests" name="CpuOpponent_DoesNotRepeatGuesses" />
+    </UnitTest>
+    <UnitTest name="Board_InitializesWithEmptyCells" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="d5abce5c-957d-c577-26ed-36c3d6a664be">
+      <Execution id="160adbcf-5d61-42b0-bff7-037d38b451f2" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BoardTests" name="Board_InitializesWithEmptyCells" />
+    </UnitTest>
+    <UnitTest name="CpuOpponent_OnMiss_ResetsToHuntIfNoTargets" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="5163dce5-4495-d29b-a1cf-8c321abd93e2">
+      <Execution id="74198ca1-141f-4e25-8504-23ad98ab2ff3" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.CpuOpponentTests" name="CpuOpponent_OnMiss_ResetsToHuntIfNoTargets" />
+    </UnitTest>
+    <UnitTest name="CpuOpponent_OnHit_AddsAdjacentCellsToTargetQueue" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="f0afe71e-d747-6dc2-813c-626206feefcf">
+      <Execution id="f0ef490d-4343-4aa8-b5a7-75a71e7e85bb" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.CpuOpponentTests" name="CpuOpponent_OnHit_AddsAdjacentCellsToTargetQueue" />
+    </UnitTest>
+    <UnitTest name="BattleshipGame_InvalidGuess_ReturnsFalse" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="b8ccdca2-28be-755d-daac-1b3b5dd504f0">
+      <Execution id="45898021-d80f-41b8-81d6-7833280e22ee" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BattleshipGameTests" name="BattleshipGame_InvalidGuess_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="Ship_InitializesWithLocationsAndHits" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="49b967b0-b539-af1c-1a25-46704c6405a7">
+      <Execution id="372396c4-2280-4e1e-97e1-99c2c99cdc77" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.ShipTests" name="Ship_InitializesWithLocationsAndHits" />
+    </UnitTest>
+    <UnitTest name="BattleshipGame_PlayerTurnAsync_HandlesInvalidInput" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="90409ddc-0936-2ea4-b60e-d7ece8435d5b">
+      <Execution id="4c52d12d-3445-49ac-9202-d7e342b76e81" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BattleshipGameTests" name="BattleshipGame_PlayerTurnAsync_HandlesInvalidInput" />
+    </UnitTest>
+    <UnitTest name="CpuOpponent_OnShipSunk_ResetsTargetMode" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="2b9cbe03-4bd1-6184-c430-c58be57413c5">
+      <Execution id="b82b9770-ecab-4d7b-957c-63fd0998f3b9" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.CpuOpponentTests" name="CpuOpponent_OnShipSunk_ResetsTargetMode" />
+    </UnitTest>
+    <UnitTest name="Ship_Locations_AreImmutable" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="3b7aa783-17ca-ee9a-2ea0-4f4da95b105f">
+      <Execution id="95c0fec9-d2c7-4a15-afd1-7e8b6da57057" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.ShipTests" name="Ship_Locations_AreImmutable" />
+    </UnitTest>
+    <UnitTest name="Board_PlaceShipsRandomly_PlacesCorrectNumberOfShips" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="739dbb54-0ed9-1d1c-cd99-c0a7f5c37950">
+      <Execution id="8e5d048d-ab44-45d9-84d3-cc2c15d68715" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BoardTests" name="Board_PlaceShipsRandomly_PlacesCorrectNumberOfShips" />
+    </UnitTest>
+    <UnitTest name="Ship_IsSunk_ReturnsTrueWhenAllHitsAreTrue" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="8d8edc51-7e4e-dead-eb6b-b4356f6371c7">
+      <Execution id="0c1f1fc3-3698-47da-a020-1898ff45d007" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.ShipTests" name="Ship_IsSunk_ReturnsTrueWhenAllHitsAreTrue" />
+    </UnitTest>
+    <UnitTest name="Board_HideShipsFlag_Works" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="247d0eeb-7bca-e405-d9f2-1437281e0c71">
+      <Execution id="56938df1-fbc7-4426-9fa1-27dd16fe3ba0" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BoardTests" name="Board_HideShipsFlag_Works" />
+    </UnitTest>
+    <UnitTest name="BattleshipGame_RunAsync_CompletesGame" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="984fef88-6dc0-7277-f23b-83197c0b1611">
+      <Execution id="3241d6e2-1dcc-4ff4-846b-8883fc894a1d" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BattleshipGameTests" name="BattleshipGame_RunAsync_CompletesGame" />
+    </UnitTest>
+    <UnitTest name="Board_PlaceShipsRandomly_DoesNotOverlapShips" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="6ac98b77-8ce0-41dd-ca2d-74dbfd925755">
+      <Execution id="e9ca6742-7a69-47f4-b0bf-355e9d914924" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BoardTests" name="Board_PlaceShipsRandomly_DoesNotOverlapShips" />
+    </UnitTest>
+    <UnitTest name="BattleshipGame_PrintBoards_PrintsWithoutError" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="ba56f877-a115-1ab7-9141-73fb9ff084a9">
+      <Execution id="9418d010-2674-4832-8883-e97969e8aadf" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BattleshipGameTests" name="BattleshipGame_PrintBoards_PrintsWithoutError" />
+    </UnitTest>
+    <UnitTest name="BattleshipGame_CpuShipsRemaining_DecrementsOnSunk" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="ef262e4d-3671-74a2-5459-110e5ce5b974">
+      <Execution id="b72f5fc5-1170-4dd4-a49a-8f84abe33385" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BattleshipGameTests" name="BattleshipGame_CpuShipsRemaining_DecrementsOnSunk" />
+    </UnitTest>
+    <UnitTest name="Board_GetDisplayCell_HidesShipsWhenRequested" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="429780c2-8c7d-4661-c562-fc728d0a10e8">
+      <Execution id="67461310-baf1-40a2-8b0a-0cc019f7c2da" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BoardTests" name="Board_GetDisplayCell_HidesShipsWhenRequested" />
+    </UnitTest>
+    <UnitTest name="BattleshipGame_PlayerGuesses_AreTracked" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="b188b6f5-cbf7-04f6-7a1e-63c050677e35">
+      <Execution id="ec43209e-be1a-4108-bb57-78520f8d7cc2" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BattleshipGameTests" name="BattleshipGame_PlayerGuesses_AreTracked" />
+    </UnitTest>
+    <UnitTest name="Ship_IsSunk_ReturnsFalseWhenAnyHitIsFalse" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="5f22c046-3953-6eee-c5e9-638ec77d14b6">
+      <Execution id="4ce28390-7175-42c6-9937-2a289ce2f44f" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.ShipTests" name="Ship_IsSunk_ReturnsFalseWhenAnyHitIsFalse" />
+    </UnitTest>
+    <UnitTest name="Board_MarkHitAndMiss_UpdatesCells" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="50da9d4f-fb7e-5d46-a551-95b976e8d27f">
+      <Execution id="88a57f9f-566c-4cf5-be71-b15f3bd7c3a3" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BoardTests" name="Board_MarkHitAndMiss_UpdatesCells" />
+    </UnitTest>
+    <UnitTest name="BattleshipGame_InvalidGuess_OutOfBounds" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="c2d878b6-17a2-76b2-187f-b004405e035c">
+      <Execution id="2d19b260-56be-41ea-ada0-2b305b01e920" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BattleshipGameTests" name="BattleshipGame_InvalidGuess_OutOfBounds" />
+    </UnitTest>
+    <UnitTest name="BattleshipGame_CpuTurnAsync_ExecutesWithoutError" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="f1c5fa6b-8772-9cc9-a884-f4386e7814cf">
+      <Execution id="0dc819bb-fde6-4456-bf06-92710c4bc9fb" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BattleshipGameTests" name="BattleshipGame_CpuTurnAsync_ExecutesWithoutError" />
+    </UnitTest>
+    <UnitTest name="BattleshipGame_ValidGuess_ParsesCorrectly" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\7\task7\task7.tests\bin\debug\net8.0\task7.tests.dll" id="ff089296-0dd9-0bf7-8928-4fdea7aed802">
+      <Execution id="919eda7a-4faf-42c2-95b8-9a7369326387" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task7.Tests.BattleshipGameTests" name="BattleshipGame_ValidGuess_ParsesCorrectly" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6ac98b77-8ce0-41dd-ca2d-74dbfd925755" executionId="e9ca6742-7a69-47f4-b0bf-355e9d914924" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef262e4d-3671-74a2-5459-110e5ce5b974" executionId="b72f5fc5-1170-4dd4-a49a-8f84abe33385" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2d878b6-17a2-76b2-187f-b004405e035c" executionId="2d19b260-56be-41ea-ada0-2b305b01e920" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b9cbe03-4bd1-6184-c430-c58be57413c5" executionId="b82b9770-ecab-4d7b-957c-63fd0998f3b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="739dbb54-0ed9-1d1c-cd99-c0a7f5c37950" executionId="8e5d048d-ab44-45d9-84d3-cc2c15d68715" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b188b6f5-cbf7-04f6-7a1e-63c050677e35" executionId="ec43209e-be1a-4108-bb57-78520f8d7cc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b7aa783-17ca-ee9a-2ea0-4f4da95b105f" executionId="95c0fec9-d2c7-4a15-afd1-7e8b6da57057" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f22c046-3953-6eee-c5e9-638ec77d14b6" executionId="4ce28390-7175-42c6-9937-2a289ce2f44f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba56f877-a115-1ab7-9141-73fb9ff084a9" executionId="9418d010-2674-4832-8883-e97969e8aadf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90409ddc-0936-2ea4-b60e-d7ece8435d5b" executionId="4c52d12d-3445-49ac-9202-d7e342b76e81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5abce5c-957d-c577-26ed-36c3d6a664be" executionId="160adbcf-5d61-42b0-bff7-037d38b451f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1c5fa6b-8772-9cc9-a884-f4386e7814cf" executionId="0dc819bb-fde6-4456-bf06-92710c4bc9fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50da9d4f-fb7e-5d46-a551-95b976e8d27f" executionId="88a57f9f-566c-4cf5-be71-b15f3bd7c3a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79fafe10-bd21-0aed-b40c-0c31c2840179" executionId="7094d525-4b08-4f83-8842-990bf36ffc4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff089296-0dd9-0bf7-8928-4fdea7aed802" executionId="919eda7a-4faf-42c2-95b8-9a7369326387" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0afe71e-d747-6dc2-813c-626206feefcf" executionId="f0ef490d-4343-4aa8-b5a7-75a71e7e85bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="429780c2-8c7d-4661-c562-fc728d0a10e8" executionId="67461310-baf1-40a2-8b0a-0cc019f7c2da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49b967b0-b539-af1c-1a25-46704c6405a7" executionId="372396c4-2280-4e1e-97e1-99c2c99cdc77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5163dce5-4495-d29b-a1cf-8c321abd93e2" executionId="74198ca1-141f-4e25-8504-23ad98ab2ff3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="197fc58a-7715-d77e-1310-e13542e155d8" executionId="83fd0861-0efc-471a-8e57-e8ff3b6c4c29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="247d0eeb-7bca-e405-d9f2-1437281e0c71" executionId="56938df1-fbc7-4426-9fa1-27dd16fe3ba0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d8edc51-7e4e-dead-eb6b-b4356f6371c7" executionId="0c1f1fc3-3698-47da-a020-1898ff45d007" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="984fef88-6dc0-7277-f23b-83197c0b1611" executionId="3241d6e2-1dcc-4ff4-846b-8883fc894a1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8ccdca2-28be-755d-daac-1b3b5dd504f0" executionId="45898021-d80f-41b8-81d6-7833280e22ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1736a87b-f04c-92db-9921-431caa683acd" executionId="c1270ec1-7386-445b-a0e9-bcc4231cecae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="25" executed="25" passed="25" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 5.0.0.0: Test execution started&#xD;
+Running all tests in D:\_git\AI_Challenge\edu-ai-challenge-2025\7\Task7\Task7.Tests\bin\Debug\net8.0\Task7.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 25 of 25 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+&#xD;
+--- CPU's Turn ---&#xD;
+CPU MISS at 33.&#xD;
+&#xD;
+Enter your guess (e.g., 00): Input must be two digits between 0 and 9.&#xD;
+Enter your guess (e.g., 00): PLAYER HIT!&#xD;
+You sunk an enemy battleship!&#xD;
+&#xD;
+NUnit Adapter 5.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="YURKO" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="YURKO\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
