@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="5a5d8ed0-1db3-4bd8-bc45-3110ccd7aabe" name="user_tp@YURKO 2025-06-16 00:46:53" runUser="YURKO\user_tp" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-06-16T00:46:53.9788494+03:00" queuing="2025-06-16T00:46:53.9788499+03:00" start="2025-06-16T00:46:49.7171188+03:00" finish="2025-06-16T00:46:54.4868122+03:00" />
+  <TestSettings name="default" id="f5b4a76b-15b9-4f0c-b42f-89b9ead5beb4">
+    <Deployment runDeploymentRoot="user_tp_YURKO_2025-06-16_00_46_53" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a3db729b-dc52-4236-bdbb-b5b5a4e48a34" testId="e8dbd244-59ad-8241-83f8-d826b1da2aaa" testName="BooleanValidator_NullValue_ReturnsFailure" computerName="YURKO" duration="00:00:00.0000670" startTime="2025-06-16T00:46:53.8817813+03:00" endTime="2025-06-16T00:46:53.8818485+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3db729b-dc52-4236-bdbb-b5b5a4e48a34" />
+    <UnitTestResult executionId="6446482e-bf4b-4e87-970c-2306ef3bfffa" testId="fc85b012-1cb0-f391-d4f4-228f2f85ab9b" testName="NumberValidator_CustomMessage_ReturnsCustomMessage" computerName="YURKO" duration="00:00:00.0006480" startTime="2025-06-16T00:46:53.8867947+03:00" endTime="2025-06-16T00:46:53.8874422+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6446482e-bf4b-4e87-970c-2306ef3bfffa" />
+    <UnitTestResult executionId="f094718a-2ef2-431c-854d-4a6713c4c08f" testId="5ae8b905-939f-ee67-3863-c6c5f30d1317" testName="StringValidator_NullOptionalString_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0000920" startTime="2025-06-16T00:46:53.8899180+03:00" endTime="2025-06-16T00:46:53.8900104+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f094718a-2ef2-431c-854d-4a6713c4c08f" />
+    <UnitTestResult executionId="96ca3b86-c8fe-402d-80f3-13a57ff672c5" testId="9bf84569-509e-e2fb-94b9-b0436c362eb4" testName="ArrayValidator_ValidArray_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0001130" startTime="2025-06-16T00:46:53.8808054+03:00" endTime="2025-06-16T00:46:53.8809184+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96ca3b86-c8fe-402d-80f3-13a57ff672c5" />
+    <UnitTestResult executionId="9afbe6df-6d37-413b-8d56-42be8d6eb677" testId="43cb39a9-af65-4fd5-3f19-c7286a098107" testName="ComplexSchema_ValidUserDataWithoutOptionalFields_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0005680" startTime="2025-06-16T00:46:53.8862190+03:00" endTime="2025-06-16T00:46:53.8867867+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9afbe6df-6d37-413b-8d56-42be8d6eb677" />
+    <UnitTestResult executionId="45f953f4-579c-4bc0-b6ae-2d70ca3ba031" testId="a0652418-90fb-5e8b-4804-965faa3b49f4" testName="ArrayValidator_NullArray_ReturnsFailure" computerName="YURKO" duration="00:00:00.0003930" startTime="2025-06-16T00:46:53.8801860+03:00" endTime="2025-06-16T00:46:53.8805790+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45f953f4-579c-4bc0-b6ae-2d70ca3ba031" />
+    <UnitTestResult executionId="499e7aed-4d29-423c-a51d-238dc62086c5" testId="6b1035ad-6b22-af37-36b6-c1fd3bfe5e83" testName="StringValidator_CustomMessage_ReturnsCustomMessage" computerName="YURKO" duration="00:00:00.0001060" startTime="2025-06-16T00:46:53.8898062+03:00" endTime="2025-06-16T00:46:53.8899122+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="499e7aed-4d29-423c-a51d-238dc62086c5" />
+    <UnitTestResult executionId="87e9bff3-2209-4b8d-b5e4-f82a568515cf" testId="ca74dfd3-5161-2dad-51eb-9b617b3e8986" testName="NumberValidator_NullOptionalNumber_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0000580" startTime="2025-06-16T00:46:53.8876162+03:00" endTime="2025-06-16T00:46:53.8876736+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87e9bff3-2209-4b8d-b5e4-f82a568515cf" />
+    <UnitTestResult executionId="91475d34-64e1-4634-a372-cc523d873651" testId="7bd932ad-9d73-72d6-d43b-7c51f6142e61" testName="ObjectValidator_MultipleOptionalProperties_MarkPropertiesAsOptional" computerName="YURKO" duration="00:00:00.0002200" startTime="2025-06-16T00:46:53.8882767+03:00" endTime="2025-06-16T00:46:53.8884962+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91475d34-64e1-4634-a372-cc523d873651" />
+    <UnitTestResult executionId="5849cfdf-fec6-4962-9ba7-f0b08b073cca" testId="eb3ac62d-dd54-87f8-ffee-9262c01f19fc" testName="ArrayValidator_WrongType_ReturnsFailure" computerName="YURKO" duration="00:00:00.0004900" startTime="2025-06-16T00:46:53.8809245+03:00" endTime="2025-06-16T00:46:53.8814144+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5849cfdf-fec6-4962-9ba7-f0b08b073cca" />
+    <UnitTestResult executionId="b7ee65e0-226b-4047-9958-9b0b320baad4" testId="b661dd30-78ca-f195-5957-09be8b93acf9" testName="ArrayValidator_NullOptionalArray_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0002050" startTime="2025-06-16T00:46:53.8805897+03:00" endTime="2025-06-16T00:46:53.8807948+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7ee65e0-226b-4047-9958-9b0b320baad4" />
+    <UnitTestResult executionId="3b2d13f3-76bc-4362-b5fa-2fc9a560fe68" testId="e5bce788-5837-00fc-8f48-0e19ecfe4d5e" testName="ObjectValidator_NestedObject_ValidatesCorrectly" computerName="YURKO" duration="00:00:00.0003470" startTime="2025-06-16T00:46:53.8885037+03:00" endTime="2025-06-16T00:46:53.8888501+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b2d13f3-76bc-4362-b5fa-2fc9a560fe68" />
+    <UnitTestResult executionId="eba0c3ec-d508-47c3-9865-4238fdedea74" testId="0f790c05-f44a-5dbd-096a-e1d5fd8a48a5" testName="StringValidator_NullString_ReturnsFailure" computerName="YURKO" duration="00:00:00.0010460" startTime="2025-06-16T00:46:53.8900164+03:00" endTime="2025-06-16T00:46:53.8910626+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eba0c3ec-d508-47c3-9865-4238fdedea74" />
+    <UnitTestResult executionId="82f4175f-8676-4e61-9bf8-cf42f6aa9dea" testId="211b38b6-a55d-6ad8-1a0f-8f89f6d73b14" testName="BooleanValidator_NonBooleanValue_ReturnsFailure" computerName="YURKO" duration="00:00:00.0002430" startTime="2025-06-16T00:46:53.8814225+03:00" endTime="2025-06-16T00:46:53.8816653+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82f4175f-8676-4e61-9bf8-cf42f6aa9dea" />
+    <UnitTestResult executionId="ba90ff3a-3f64-4172-bccf-2c721322984e" testId="006b75aa-c609-a2bf-248e-5d3d5b7513a2" testName="ObjectValidator_MissingOptionalProperty_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0002050" startTime="2025-06-16T00:46:53.8880625+03:00" endTime="2025-06-16T00:46:53.8882678+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba90ff3a-3f64-4172-bccf-2c721322984e" />
+    <UnitTestResult executionId="8ddcb658-da73-4cc7-b698-f705eae5b1bd" testId="c4c6e9d5-d6ab-7f8a-a6fa-c93963aa5df4" testName="ObjectValidator_NullObject_ReturnsFailure" computerName="YURKO" duration="00:00:00.0001570" startTime="2025-06-16T00:46:53.8892514+03:00" endTime="2025-06-16T00:46:53.8894084+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ddcb658-da73-4cc7-b698-f705eae5b1bd" />
+    <UnitTestResult executionId="7f16bff3-0419-4918-af90-10aad0d493b7" testId="8c3299cc-a585-6b9b-1bc1-38852880b37a" testName="ComplexSchema_InvalidUserData_ReturnsFailure" computerName="YURKO" duration="00:00:00.0031590" startTime="2025-06-16T00:46:53.8819243+03:00" endTime="2025-06-16T00:46:53.8850827+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f16bff3-0419-4918-af90-10aad0d493b7" />
+    <UnitTestResult executionId="543d66f5-6edc-486b-a86d-f4efd0d52780" testId="eee8d47b-d74d-09a1-e732-f6d45441bb04" testName="ObjectValidator_NullOptionalObject_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0001170" startTime="2025-06-16T00:46:53.8894169+03:00" endTime="2025-06-16T00:46:53.8895341+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="543d66f5-6edc-486b-a86d-f4efd0d52780" />
+    <UnitTestResult executionId="c73181d2-71b5-4382-b33b-8444588b8c02" testId="42cbaa40-9bbc-b30a-bfe9-b724da727527" testName="StringValidator_TooLongString_ReturnsFailure" computerName="YURKO" duration="00:00:00.0000960" startTime="2025-06-16T00:46:53.8912874+03:00" endTime="2025-06-16T00:46:53.8913828+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c73181d2-71b5-4382-b33b-8444588b8c02" />
+    <UnitTestResult executionId="8c926825-e684-4a81-ade3-f64fa6fb215a" testId="a797c0cc-482c-c79d-a7d5-b3dac3220c5f" testName="ObjectValidator_NestedObjectWithInvalidValue_ReturnsFailure" computerName="YURKO" duration="00:00:00.0003830" startTime="2025-06-16T00:46:53.8888578+03:00" endTime="2025-06-16T00:46:53.8892408+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c926825-e684-4a81-ade3-f64fa6fb215a" />
+    <UnitTestResult executionId="8457ccf0-7c30-4adf-bffd-77ef20f98e58" testId="3c5bbdca-f54b-7d15-e5fe-64d296272276" testName="NumberValidator_NullNumber_ReturnsFailure" computerName="YURKO" duration="00:00:00.0000620" startTime="2025-06-16T00:46:53.8875486+03:00" endTime="2025-06-16T00:46:53.8876109+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8457ccf0-7c30-4adf-bffd-77ef20f98e58" />
+    <UnitTestResult executionId="90dc7a84-ce86-4ef0-919d-3617042a42e6" testId="10c03f51-320e-8e68-72f8-a0c2736b5609" testName="ComplexSchema_ValidUserData_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0011160" startTime="2025-06-16T00:46:53.8850952+03:00" endTime="2025-06-16T00:46:53.8862108+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90dc7a84-ce86-4ef0-919d-3617042a42e6" />
+    <UnitTestResult executionId="ae3625c0-406f-4224-bf9d-22dc093d3e41" testId="c072c5f2-0c5e-b530-b375-54afd7118643" testName="NumberValidator_NonNumericValue_ReturnsFailure" computerName="YURKO" duration="00:00:00.0000920" startTime="2025-06-16T00:46:53.8874505+03:00" endTime="2025-06-16T00:46:53.8875428+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae3625c0-406f-4224-bf9d-22dc093d3e41" />
+    <UnitTestResult executionId="20c33851-405f-49a7-9293-20c7b3e31dd7" testId="e6d6eb39-e5a0-16bb-6855-83c489ea254a" testName="StringValidator_ValidString_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0000900" startTime="2025-06-16T00:46:53.8914744+03:00" endTime="2025-06-16T00:46:53.8915645+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20c33851-405f-49a7-9293-20c7b3e31dd7" />
+    <UnitTestResult executionId="c3eebace-827d-47bb-afe2-57c0d90573c6" testId="f0c40f6e-a51d-f6b1-8ef0-d28a52c9fa3c" testName="BooleanValidator_NullOptionalValue_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0001030" startTime="2025-06-16T00:46:53.8816722+03:00" endTime="2025-06-16T00:46:53.8817754+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3eebace-827d-47bb-afe2-57c0d90573c6" />
+    <UnitTestResult executionId="b3ecc563-a8b3-458c-8145-14a2b81b9488" testId="f0ff6f71-8254-8de7-e0d8-091b12090d3d" testName="ObjectValidator_InvalidPropertyValue_ReturnsFailure" computerName="YURKO" duration="00:00:00.0002220" startTime="2025-06-16T00:46:53.8878335+03:00" endTime="2025-06-16T00:46:53.8880549+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3ecc563-a8b3-458c-8145-14a2b81b9488" />
+    <UnitTestResult executionId="7e649749-7901-4fa4-8d9f-dc3d6faf23f6" testId="95c8088c-369d-3edf-aa6e-64d2e4521d91" testName="NumberValidator_ValidInteger_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0000649" startTime="2025-06-16T00:46:53.8877637+03:00" endTime="2025-06-16T00:46:53.8878284+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e649749-7901-4fa4-8d9f-dc3d6faf23f6" />
+    <UnitTestResult executionId="a06cbc90-dc56-410a-8809-066e9296d121" testId="bec7f881-6a5c-427d-2753-533f1df69221" testName="ArrayValidator_ArrayWithInvalidItem_ReturnsFailure" computerName="YURKO" duration="00:00:00.0062379" startTime="2025-06-16T00:46:53.8732585+03:00" endTime="2025-06-16T00:46:53.8794617+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a06cbc90-dc56-410a-8809-066e9296d121" />
+    <UnitTestResult executionId="52657aad-3afd-4240-b848-b130007a3525" testId="5c8ec126-f1c2-4697-2927-fd0ecce897d9" testName="StringValidator_TooShortString_ReturnsFailure" computerName="YURKO" duration="00:00:00.0000770" startTime="2025-06-16T00:46:53.8913883+03:00" endTime="2025-06-16T00:46:53.8914655+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52657aad-3afd-4240-b848-b130007a3525" />
+    <UnitTestResult executionId="f520e2b1-911c-4dcc-8b57-abea8cd00678" testId="caf97be3-d799-4a16-d406-4b1b32180597" testName="NumberValidator_ValidDouble_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0000699" startTime="2025-06-16T00:46:53.8876783+03:00" endTime="2025-06-16T00:46:53.8877487+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f520e2b1-911c-4dcc-8b57-abea8cd00678" />
+    <UnitTestResult executionId="521f01e0-8879-4100-95a0-4e866d6df3ec" testId="ae0ee11f-51bd-f075-62e8-bedd96a1f32e" testName="StringValidator_PatternMatching_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0000989" startTime="2025-06-16T00:46:53.8910715+03:00" endTime="2025-06-16T00:46:53.8911701+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="521f01e0-8879-4100-95a0-4e866d6df3ec" />
+    <UnitTestResult executionId="e1d90a89-6a68-4cf4-aac9-1acdee323392" testId="e4696f89-30de-49c3-1bfd-0d7622eb86b2" testName="ObjectValidator_ValidObject_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0002500" startTime="2025-06-16T00:46:53.8895425+03:00" endTime="2025-06-16T00:46:53.8897929+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1d90a89-6a68-4cf4-aac9-1acdee323392" />
+    <UnitTestResult executionId="af3f0399-5709-4601-b769-e95b01fb6e9c" testId="fbf8b09e-d3e6-b7bd-b51d-b87948af60d7" testName="BooleanValidator_ValidBoolean_ReturnsSuccess" computerName="YURKO" duration="00:00:00.0000649" startTime="2025-06-16T00:46:53.8818538+03:00" endTime="2025-06-16T00:46:53.8819191+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af3f0399-5709-4601-b769-e95b01fb6e9c" />
+    <UnitTestResult executionId="e32a9057-5edc-4d82-ba81-c9eae314be71" testId="e5a9c250-2c05-539f-dde0-69d096e4a7b0" testName="StringValidator_PatternNotMatching_ReturnsFailure" computerName="YURKO" duration="00:00:00.0001050" startTime="2025-06-16T00:46:53.8911760+03:00" endTime="2025-06-16T00:46:53.8912811+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e32a9057-5edc-4d82-ba81-c9eae314be71" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="BooleanValidator_NullValue_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="e8dbd244-59ad-8241-83f8-d826b1da2aaa">
+      <Execution id="a3db729b-dc52-4236-bdbb-b5b5a4e48a34" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="BooleanValidator_NullValue_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="BooleanValidator_NullOptionalValue_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="f0c40f6e-a51d-f6b1-8ef0-d28a52c9fa3c">
+      <Execution id="c3eebace-827d-47bb-afe2-57c0d90573c6" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="BooleanValidator_NullOptionalValue_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="ObjectValidator_NestedObjectWithInvalidValue_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="a797c0cc-482c-c79d-a7d5-b3dac3220c5f">
+      <Execution id="8c926825-e684-4a81-ade3-f64fa6fb215a" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ObjectValidator_NestedObjectWithInvalidValue_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="NumberValidator_NullOptionalNumber_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="ca74dfd3-5161-2dad-51eb-9b617b3e8986">
+      <Execution id="87e9bff3-2209-4b8d-b5e4-f82a568515cf" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="NumberValidator_NullOptionalNumber_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="NumberValidator_NullNumber_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="3c5bbdca-f54b-7d15-e5fe-64d296272276">
+      <Execution id="8457ccf0-7c30-4adf-bffd-77ef20f98e58" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="NumberValidator_NullNumber_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="ArrayValidator_ValidArray_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="9bf84569-509e-e2fb-94b9-b0436c362eb4">
+      <Execution id="96ca3b86-c8fe-402d-80f3-13a57ff672c5" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ArrayValidator_ValidArray_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="ComplexSchema_ValidUserData_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="10c03f51-320e-8e68-72f8-a0c2736b5609">
+      <Execution id="90dc7a84-ce86-4ef0-919d-3617042a42e6" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ComplexSchema_ValidUserData_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="ObjectValidator_NestedObject_ValidatesCorrectly" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="e5bce788-5837-00fc-8f48-0e19ecfe4d5e">
+      <Execution id="3b2d13f3-76bc-4362-b5fa-2fc9a560fe68" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ObjectValidator_NestedObject_ValidatesCorrectly" />
+    </UnitTest>
+    <UnitTest name="ObjectValidator_NullOptionalObject_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="eee8d47b-d74d-09a1-e732-f6d45441bb04">
+      <Execution id="543d66f5-6edc-486b-a86d-f4efd0d52780" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ObjectValidator_NullOptionalObject_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="NumberValidator_CustomMessage_ReturnsCustomMessage" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="fc85b012-1cb0-f391-d4f4-228f2f85ab9b">
+      <Execution id="6446482e-bf4b-4e87-970c-2306ef3bfffa" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="NumberValidator_CustomMessage_ReturnsCustomMessage" />
+    </UnitTest>
+    <UnitTest name="StringValidator_NullString_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="0f790c05-f44a-5dbd-096a-e1d5fd8a48a5">
+      <Execution id="eba0c3ec-d508-47c3-9865-4238fdedea74" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="StringValidator_NullString_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="ObjectValidator_MultipleOptionalProperties_MarkPropertiesAsOptional" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="7bd932ad-9d73-72d6-d43b-7c51f6142e61">
+      <Execution id="91475d34-64e1-4634-a372-cc523d873651" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ObjectValidator_MultipleOptionalProperties_MarkPropertiesAsOptional" />
+    </UnitTest>
+    <UnitTest name="ObjectValidator_InvalidPropertyValue_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="f0ff6f71-8254-8de7-e0d8-091b12090d3d">
+      <Execution id="b3ecc563-a8b3-458c-8145-14a2b81b9488" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ObjectValidator_InvalidPropertyValue_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="ArrayValidator_WrongType_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="eb3ac62d-dd54-87f8-ffee-9262c01f19fc">
+      <Execution id="5849cfdf-fec6-4962-9ba7-f0b08b073cca" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ArrayValidator_WrongType_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="NumberValidator_ValidDouble_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="caf97be3-d799-4a16-d406-4b1b32180597">
+      <Execution id="f520e2b1-911c-4dcc-8b57-abea8cd00678" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="NumberValidator_ValidDouble_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="ObjectValidator_MissingOptionalProperty_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="006b75aa-c609-a2bf-248e-5d3d5b7513a2">
+      <Execution id="ba90ff3a-3f64-4172-bccf-2c721322984e" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ObjectValidator_MissingOptionalProperty_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="StringValidator_PatternMatching_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="ae0ee11f-51bd-f075-62e8-bedd96a1f32e">
+      <Execution id="521f01e0-8879-4100-95a0-4e866d6df3ec" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="StringValidator_PatternMatching_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="NumberValidator_ValidInteger_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="95c8088c-369d-3edf-aa6e-64d2e4521d91">
+      <Execution id="7e649749-7901-4fa4-8d9f-dc3d6faf23f6" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="NumberValidator_ValidInteger_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="StringValidator_NullOptionalString_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="5ae8b905-939f-ee67-3863-c6c5f30d1317">
+      <Execution id="f094718a-2ef2-431c-854d-4a6713c4c08f" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="StringValidator_NullOptionalString_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="StringValidator_PatternNotMatching_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="e5a9c250-2c05-539f-dde0-69d096e4a7b0">
+      <Execution id="e32a9057-5edc-4d82-ba81-c9eae314be71" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="StringValidator_PatternNotMatching_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="BooleanValidator_NonBooleanValue_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="211b38b6-a55d-6ad8-1a0f-8f89f6d73b14">
+      <Execution id="82f4175f-8676-4e61-9bf8-cf42f6aa9dea" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="BooleanValidator_NonBooleanValue_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="ObjectValidator_ValidObject_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="e4696f89-30de-49c3-1bfd-0d7622eb86b2">
+      <Execution id="e1d90a89-6a68-4cf4-aac9-1acdee323392" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ObjectValidator_ValidObject_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="ArrayValidator_ArrayWithInvalidItem_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="bec7f881-6a5c-427d-2753-533f1df69221">
+      <Execution id="a06cbc90-dc56-410a-8809-066e9296d121" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ArrayValidator_ArrayWithInvalidItem_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="ArrayValidator_NullOptionalArray_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="b661dd30-78ca-f195-5957-09be8b93acf9">
+      <Execution id="b7ee65e0-226b-4047-9958-9b0b320baad4" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ArrayValidator_NullOptionalArray_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="ComplexSchema_ValidUserDataWithoutOptionalFields_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="43cb39a9-af65-4fd5-3f19-c7286a098107">
+      <Execution id="9afbe6df-6d37-413b-8d56-42be8d6eb677" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ComplexSchema_ValidUserDataWithoutOptionalFields_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="ComplexSchema_InvalidUserData_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="8c3299cc-a585-6b9b-1bc1-38852880b37a">
+      <Execution id="7f16bff3-0419-4918-af90-10aad0d493b7" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ComplexSchema_InvalidUserData_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="StringValidator_CustomMessage_ReturnsCustomMessage" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="6b1035ad-6b22-af37-36b6-c1fd3bfe5e83">
+      <Execution id="499e7aed-4d29-423c-a51d-238dc62086c5" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="StringValidator_CustomMessage_ReturnsCustomMessage" />
+    </UnitTest>
+    <UnitTest name="StringValidator_TooLongString_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="42cbaa40-9bbc-b30a-bfe9-b724da727527">
+      <Execution id="c73181d2-71b5-4382-b33b-8444588b8c02" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="StringValidator_TooLongString_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="StringValidator_TooShortString_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="5c8ec126-f1c2-4697-2927-fd0ecce897d9">
+      <Execution id="52657aad-3afd-4240-b848-b130007a3525" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="StringValidator_TooShortString_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="ArrayValidator_NullArray_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="a0652418-90fb-5e8b-4804-965faa3b49f4">
+      <Execution id="45f953f4-579c-4bc0-b6ae-2d70ca3ba031" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ArrayValidator_NullArray_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="StringValidator_ValidString_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="e6d6eb39-e5a0-16bb-6855-83c489ea254a">
+      <Execution id="20c33851-405f-49a7-9293-20c7b3e31dd7" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="StringValidator_ValidString_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="ObjectValidator_NullObject_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="c4c6e9d5-d6ab-7f8a-a6fa-c93963aa5df4">
+      <Execution id="8ddcb658-da73-4cc7-b698-f705eae5b1bd" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="ObjectValidator_NullObject_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="NumberValidator_NonNumericValue_ReturnsFailure" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="c072c5f2-0c5e-b530-b375-54afd7118643">
+      <Execution id="ae3625c0-406f-4224-bf9d-22dc093d3e41" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="NumberValidator_NonNumericValue_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="BooleanValidator_ValidBoolean_ReturnsSuccess" storage="d:\_git\ai_challenge\edu-ai-challenge-2025\8\task8.tests\bin\debug\net8.0\task8.tests.dll" id="fbf8b09e-d3e6-b7bd-b51d-b87948af60d7">
+      <Execution id="af3f0399-5709-4601-b769-e95b01fb6e9c" />
+      <TestMethod codeBase="D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Task8.Tests.SchemaTests" name="BooleanValidator_ValidBoolean_ReturnsSuccess" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e8dbd244-59ad-8241-83f8-d826b1da2aaa" executionId="a3db729b-dc52-4236-bdbb-b5b5a4e48a34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc85b012-1cb0-f391-d4f4-228f2f85ab9b" executionId="6446482e-bf4b-4e87-970c-2306ef3bfffa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ae8b905-939f-ee67-3863-c6c5f30d1317" executionId="f094718a-2ef2-431c-854d-4a6713c4c08f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bf84569-509e-e2fb-94b9-b0436c362eb4" executionId="96ca3b86-c8fe-402d-80f3-13a57ff672c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43cb39a9-af65-4fd5-3f19-c7286a098107" executionId="9afbe6df-6d37-413b-8d56-42be8d6eb677" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0652418-90fb-5e8b-4804-965faa3b49f4" executionId="45f953f4-579c-4bc0-b6ae-2d70ca3ba031" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b1035ad-6b22-af37-36b6-c1fd3bfe5e83" executionId="499e7aed-4d29-423c-a51d-238dc62086c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca74dfd3-5161-2dad-51eb-9b617b3e8986" executionId="87e9bff3-2209-4b8d-b5e4-f82a568515cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bd932ad-9d73-72d6-d43b-7c51f6142e61" executionId="91475d34-64e1-4634-a372-cc523d873651" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb3ac62d-dd54-87f8-ffee-9262c01f19fc" executionId="5849cfdf-fec6-4962-9ba7-f0b08b073cca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b661dd30-78ca-f195-5957-09be8b93acf9" executionId="b7ee65e0-226b-4047-9958-9b0b320baad4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5bce788-5837-00fc-8f48-0e19ecfe4d5e" executionId="3b2d13f3-76bc-4362-b5fa-2fc9a560fe68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f790c05-f44a-5dbd-096a-e1d5fd8a48a5" executionId="eba0c3ec-d508-47c3-9865-4238fdedea74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="211b38b6-a55d-6ad8-1a0f-8f89f6d73b14" executionId="82f4175f-8676-4e61-9bf8-cf42f6aa9dea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="006b75aa-c609-a2bf-248e-5d3d5b7513a2" executionId="ba90ff3a-3f64-4172-bccf-2c721322984e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4c6e9d5-d6ab-7f8a-a6fa-c93963aa5df4" executionId="8ddcb658-da73-4cc7-b698-f705eae5b1bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c3299cc-a585-6b9b-1bc1-38852880b37a" executionId="7f16bff3-0419-4918-af90-10aad0d493b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eee8d47b-d74d-09a1-e732-f6d45441bb04" executionId="543d66f5-6edc-486b-a86d-f4efd0d52780" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42cbaa40-9bbc-b30a-bfe9-b724da727527" executionId="c73181d2-71b5-4382-b33b-8444588b8c02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a797c0cc-482c-c79d-a7d5-b3dac3220c5f" executionId="8c926825-e684-4a81-ade3-f64fa6fb215a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c5bbdca-f54b-7d15-e5fe-64d296272276" executionId="8457ccf0-7c30-4adf-bffd-77ef20f98e58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10c03f51-320e-8e68-72f8-a0c2736b5609" executionId="90dc7a84-ce86-4ef0-919d-3617042a42e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c072c5f2-0c5e-b530-b375-54afd7118643" executionId="ae3625c0-406f-4224-bf9d-22dc093d3e41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6d6eb39-e5a0-16bb-6855-83c489ea254a" executionId="20c33851-405f-49a7-9293-20c7b3e31dd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0c40f6e-a51d-f6b1-8ef0-d28a52c9fa3c" executionId="c3eebace-827d-47bb-afe2-57c0d90573c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0ff6f71-8254-8de7-e0d8-091b12090d3d" executionId="b3ecc563-a8b3-458c-8145-14a2b81b9488" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95c8088c-369d-3edf-aa6e-64d2e4521d91" executionId="7e649749-7901-4fa4-8d9f-dc3d6faf23f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bec7f881-6a5c-427d-2753-533f1df69221" executionId="a06cbc90-dc56-410a-8809-066e9296d121" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c8ec126-f1c2-4697-2927-fd0ecce897d9" executionId="52657aad-3afd-4240-b848-b130007a3525" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="caf97be3-d799-4a16-d406-4b1b32180597" executionId="f520e2b1-911c-4dcc-8b57-abea8cd00678" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae0ee11f-51bd-f075-62e8-bedd96a1f32e" executionId="521f01e0-8879-4100-95a0-4e866d6df3ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4696f89-30de-49c3-1bfd-0d7622eb86b2" executionId="e1d90a89-6a68-4cf4-aac9-1acdee323392" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fbf8b09e-d3e6-b7bd-b51d-b87948af60d7" executionId="af3f0399-5709-4601-b769-e95b01fb6e9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5a9c250-2c05-539f-dde0-69d096e4a7b0" executionId="e32a9057-5edc-4d82-ba81-c9eae314be71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="34" executed="34" passed="34" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 5.0.0.0: Test execution started&#xD;
+Running all tests in D:\_git\AI_Challenge\edu-ai-challenge-2025\8\Task8.Tests\bin\Debug\net8.0\Task8.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 34 of 34 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 5.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="YURKO" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="YURKO\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
