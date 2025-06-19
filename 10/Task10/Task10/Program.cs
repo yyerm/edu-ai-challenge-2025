@@ -1,5 +1,4 @@
-﻿using System.Net.Http;
-using System.Net.Http.Headers;
+﻿using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 
@@ -30,7 +29,7 @@ public class Program
         }
 
         // Load products from the JSON file
-        string productsJson = File.ReadAllText("products.json");
+        var productsJson = File.ReadAllText("products.json");
         var products = JsonSerializer.Deserialize<List<Product>>(productsJson);
 
         if (products == null || !products.Any())
@@ -51,44 +50,40 @@ public class Program
         var filterFunction = new
         {
             name = "filter_products",
-            description = "Filter products based on category, price, rating, and availability",
+            description = "Filter products based on user preferences and return matching products",
             parameters = new
             {
                 type = "object",
                 properties = new
                 {
-                    category = new
+                    matchingProducts = new
                     {
-                        type = "string",
-                        @enum = new[] { "Electronics", "Fitness", "Kitchen", "Books", "Clothing" },
-                        description = "Product category"
-                    },
-                    maxPrice = new
-                    {
-                        type = "number",
-                        description = "Maximum price"
-                    },
-                    minRating = new
-                    {
-                        type = "number",
-                        description = "Minimum rating (1.0-5.0)"
-                    },
-                    inStock = new
-                    {
-                        type = "boolean",
-                        description = "Whether the item should be in stock"
+                        type = "array",
+                        description = "List of products that match the user's preferences",
+                        items = new
+                        {
+                            type = "object",
+                            properties = new
+                            {
+                                name = new { type = "string" },
+                                category = new { type = "string" },
+                                price = new { type = "number" },
+                                rating = new { type = "number" },
+                                in_stock = new { type = "boolean" }
+                            }
+                        }
                     }
                 },
-                required = new string[] { }
+                required = new[] { "matchingProducts" }
             }
         };
 
-// Create the API request
-var requestBody = new
-{
-    model = "gpt-4.1-mini",
-    messages = new[]
-    {
+        // Create the API request
+        var requestBody = new
+        {
+            model = "gpt-4.1-mini",
+            messages = new[]
+            {
                 new
                 {
                     role = "system",
@@ -97,179 +92,147 @@ var requestBody = new
                 new
                 {
                     role = "user",
-                    content = input
+                    content = $"Here is a list of products: {productsJson}\n\nFilter these products based on the following request: {input}"
                 }
             },
-    functions = new[] { filterFunction },
-    function_call = new { name = "filter_products" }
-};
+            functions = new[] { filterFunction },
+            function_call = new { name = "filter_products" }
+        };
 
-string requestJson = JsonSerializer.Serialize(requestBody);
-var content = new StringContent(requestJson, Encoding.UTF8, "application/json");
+        var requestJson = JsonSerializer.Serialize(requestBody);
+        var content = new StringContent(requestJson, Encoding.UTF8, "application/json");
 
-// Make the API call
-Console.WriteLine("Calling OpenAI API to process your query...");
-var response = await httpClient.PostAsync("https://api.openai.com/v1/chat/completions", content);
-string responseJson = await response.Content.ReadAsStringAsync();
+        // Make the API call
+        Console.WriteLine("Calling OpenAI API to process your query...");
+        var response = await httpClient.PostAsync("https://api.openai.com/v1/chat/completions", content);
+        var responseJson = await response.Content.ReadAsStringAsync();
 
-if (!response.IsSuccessStatusCode)
-{
-    Console.WriteLine($"Error: API call failed with status code {response.StatusCode}");
-    Console.WriteLine($"Response: {responseJson}");
-    return;
-}
-
-// Parse the API response
-var jsonResponse = JsonDocument.Parse(responseJson);
-var functionCall = jsonResponse.RootElement
-    .GetProperty("choices")[0]
-    .GetProperty("message")
-    .GetProperty("function_call");
-
-var functionName = functionCall.GetProperty("name").GetString();
-var functionArgs = functionCall.GetProperty("arguments").GetString();
-
-if (functionName != "filter_products" || string.IsNullOrEmpty(functionArgs))
-{
-    Console.WriteLine("Error: Unexpected API response format.");
-    return;
-}
-
-// Parse the function arguments
-var filterParams = JsonSerializer.Deserialize<FilterParameters>(functionArgs);
-
-// Apply filters to the products
-var filteredProducts = products.AsEnumerable();
-
-if (filterParams?.category != null)
-{
-    filteredProducts = filteredProducts.Where(p => p.category.Equals(filterParams.category, StringComparison.OrdinalIgnoreCase));
-}
-if (filterParams?.maxPrice.HasValue ?? false)
-{
-    filteredProducts = filteredProducts.Where(p => p.price <= filterParams.maxPrice.Value);
-}
-if (filterParams?.minRating.HasValue ?? false)
-{
-    filteredProducts = filteredProducts.Where(p => p.rating >= filterParams.minRating.Value);
-}
-if (filterParams?.inStock.HasValue ?? false)
-{
-    filteredProducts = filteredProducts.Where(p => p.in_stock == filterParams.inStock.Value);
-}
-
-var finalProducts = filteredProducts.ToList();
-
-// Display the results
-Console.WriteLine("\nFiltered Products:");
-if (finalProducts.Any())
-{
-    int index = 1;
-    foreach (var product in finalProducts)
-    {
-        Console.WriteLine($"{index++}. {product.name} - ${product.price}, Rating: {product.rating}, {(product.in_stock ? "In Stock" : "Out of Stock")}");
-    }
-}
-else
-{
-    Console.WriteLine("No products match your criteria.");
-}
-
-// Ask if the user wants to save the results
-Console.Write("\nDo you want to save this search to a file? (y/n): ");
-var saveResponse = Console.ReadLine()?.Trim().ToLower();
-
-if (saveResponse == "y" || saveResponse == "yes")
-{
-    // Create markdown content
-    var markdownContent = new StringBuilder();
-    markdownContent.AppendLine("# Product Search");
-    markdownContent.AppendLine();
-    markdownContent.AppendLine($"## Query");
-    markdownContent.AppendLine($"`{input}`");
-    markdownContent.AppendLine();
-
-    markdownContent.AppendLine($"## Filter Parameters");
-    markdownContent.AppendLine("```");
-    markdownContent.AppendLine($"Category: {filterParams?.category ?? "Any"}");
-    markdownContent.AppendLine($"Max Price: {(filterParams?.maxPrice.HasValue ?? false ? $"${filterParams.maxPrice}" : "Any")}");
-    markdownContent.AppendLine($"Min Rating: {(filterParams?.minRating.HasValue ?? false ? filterParams.minRating.ToString() : "Any")}");
-    markdownContent.AppendLine($"In Stock Only: {(filterParams?.inStock.HasValue ?? false ? filterParams.inStock.ToString() : "Any")}");
-    markdownContent.AppendLine("```");
-    markdownContent.AppendLine();
-
-    markdownContent.AppendLine($"## Results");
-    markdownContent.AppendLine();
-
-    if (finalProducts.Any())
-    {
-        markdownContent.AppendLine("| Product | Price | Rating | Availability |");
-        markdownContent.AppendLine("|--------|-------|--------|--------------|");
-
-        foreach (var product in finalProducts)
+        if (!response.IsSuccessStatusCode)
         {
-            markdownContent.AppendLine($"| {product.name} | ${product.price} | {product.rating} | {(product.in_stock ? "In Stock" : "Out of Stock")} |");
+            Console.WriteLine($"Error: API call failed with status code {response.StatusCode}");
+            Console.WriteLine($"Response: {responseJson}");
+            return;
         }
-    }
-    else
-    {
-        markdownContent.AppendLine("No products match the specified criteria.");
-    }
 
-    // Save to file
-    string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-    string filename = $"product_search_{timestamp}.md";
+        // Parse the API response
+        var jsonResponse = JsonDocument.Parse(responseJson);
+        var functionCall = jsonResponse.RootElement
+            .GetProperty("choices")[0]
+            .GetProperty("message")
+            .GetProperty("function_call");
 
-    File.WriteAllText(filename, markdownContent.ToString());
-    Console.WriteLine($"Search results saved to {filename}");
-}
-    }
+        var functionName = functionCall.GetProperty("name").GetString();
+        var functionArgs = functionCall.GetProperty("arguments").GetString();
 
-    private static string GetApiKey()
-{
-    // Try to get from environment variable
-    var apiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
+        if (functionName != "filter_products" || string.IsNullOrEmpty(functionArgs))
+        {
+            Console.WriteLine("Error: Unexpected API response format.");
+            return;
+        }
 
-    // If not found in env var, look for a file
-    if (string.IsNullOrEmpty(apiKey))
-    {
-        var keyFilePath = Path.Combine(
-            Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
-            ".openai",
-            "api_key.txt");
+        // Parse the function arguments to get the filtered products directly from OpenAI
+        var filterResult = JsonSerializer.Deserialize<FilterResult>(functionArgs);
+        var finalProducts = filterResult?.matchingProducts ?? new List<Product>();
 
-        if (File.Exists(keyFilePath)) apiKey = File.ReadAllText(keyFilePath).Trim();
-    }
+        // Display the results
+        Console.WriteLine("\nFiltered Products:");
+        if (finalProducts.Any())
+        {
+            var index = 1;
+            foreach (var product in finalProducts)
+                Console.WriteLine(
+                    $"{index++}. {product.name} - ${product.price}, Rating: {product.rating}, {(product.in_stock ? "In Stock" : "Out of Stock")}");
+        }
+        else
+        {
+            Console.WriteLine("No products match your criteria.");
+        }
 
-    // If still not found, prompt the user
-    if (string.IsNullOrEmpty(apiKey))
-    {
-        Console.Write("Enter your OpenAI API key: ");
-        apiKey = Console.ReadLine()?.Trim();
-
-        // Ask if they want to save it
-        Console.Write("Save API key for future use? (y/n): ");
+        // Ask if the user wants to save the results
+        Console.Write("\nDo you want to save this search to a file? (y/n): ");
         var saveResponse = Console.ReadLine()?.Trim().ToLower();
 
         if (saveResponse == "y" || saveResponse == "yes")
-            try
-            {
-                var keyDirPath = Path.Combine(
-                    Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
-                    ".openai");
+        {
+            // Create markdown content
+            var markdownContent = new StringBuilder();
+            markdownContent.AppendLine("# Product Search");
+            markdownContent.AppendLine();
+            markdownContent.AppendLine("## Query");
+            markdownContent.AppendLine($"`{input}`");
+            markdownContent.AppendLine();
 
-                Directory.CreateDirectory(keyDirPath);
-                File.WriteAllText(Path.Combine(keyDirPath, "api_key.txt"), apiKey);
-                Console.WriteLine("API key saved successfully.");
-            }
-            catch (Exception ex)
+            markdownContent.AppendLine("## Results");
+            markdownContent.AppendLine();
+
+            if (finalProducts.Any())
             {
-                Console.WriteLine($"Failed to save API key: {ex.Message}");
+                markdownContent.AppendLine("| Product | Price | Rating | Availability |");
+                markdownContent.AppendLine("|--------|-------|--------|--------------|");
+
+                foreach (var product in finalProducts)
+                    markdownContent.AppendLine(
+                        $"| {product.name} | ${product.price} | {product.rating} | {(product.in_stock ? "In Stock" : "Out of Stock")} |");
             }
+            else
+            {
+                markdownContent.AppendLine("No products match the specified criteria.");
+            }
+
+            // Save to file
+            var timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+            var filename = $"product_search_{timestamp}.md";
+
+            File.WriteAllText(filename, markdownContent.ToString());
+            Console.WriteLine($"Search results saved to {filename}");
+        }
     }
 
-    return apiKey;
-}
+    private static string GetApiKey()
+    {
+        // Try to get from environment variable
+        var apiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
+
+        // If not found in env var, look for a file
+        if (string.IsNullOrEmpty(apiKey))
+        {
+            var keyFilePath = Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
+                ".openai",
+                "api_key.txt");
+
+            if (File.Exists(keyFilePath)) apiKey = File.ReadAllText(keyFilePath).Trim();
+        }
+
+        // If still not found, prompt the user
+        if (string.IsNullOrEmpty(apiKey))
+        {
+            Console.Write("Enter your OpenAI API key: ");
+            apiKey = Console.ReadLine()?.Trim();
+
+            // Ask if they want to save it
+            Console.Write("Save API key for future use? (y/n): ");
+            var saveResponse = Console.ReadLine()?.Trim().ToLower();
+
+            if (saveResponse == "y" || saveResponse == "yes")
+                try
+                {
+                    var keyDirPath = Path.Combine(
+                        Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
+                        ".openai");
+
+                    Directory.CreateDirectory(keyDirPath);
+                    File.WriteAllText(Path.Combine(keyDirPath, "api_key.txt"), apiKey);
+                    Console.WriteLine("API key saved successfully.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Failed to save API key: {ex.Message}");
+                }
+        }
+
+        return apiKey;
+    }
 }
 
 public class Product
@@ -281,10 +244,7 @@ public class Product
     public bool in_stock { get; set; }
 }
 
-public class FilterParameters
+public class FilterResult
 {
-    public string? category { get; set; }
-    public double? maxPrice { get; set; }
-    public double? minRating { get; set; }
-    public bool? inStock { get; set; }
+    public List<Product> matchingProducts { get; set; } = new List<Product>();
 }
