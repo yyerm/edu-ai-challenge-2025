@@ -1,0 +1,46 @@
+{
+  "WordCount": 982,
+  "SpeakingSpeedWpm": 131,
+  "FrequentlyMentionedTopics": [
+    {
+      "Topic": "Okay",
+      "Mentions": 27
+    },
+    {
+      "Topic": "Have",
+      "Mentions": 16
+    },
+    {
+      "Topic": "Pain",
+      "Mentions": 14
+    },
+    {
+      "Topic": "Right",
+      "Mentions": 13
+    },
+    {
+      "Topic": "Yeah",
+      "Mentions": 12
+    },
+    {
+      "Topic": "That",
+      "Mentions": 11
+    },
+    {
+      "Topic": "What",
+      "Mentions": 9
+    },
+    {
+      "Topic": "Like",
+      "Mentions": 9
+    },
+    {
+      "Topic": "Heart",
+      "Mentions": 7
+    },
+    {
+      "Topic": "When",
+      "Mentions": 7
+    }
+  ]
+}
